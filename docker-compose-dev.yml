@@ -1,0 +1,9 @@
+services:
+  nodeapp:
+     build:
+       context: .
+       target: development
+     volumes:
+       - ./src:/app/src
+     command: npm run start-dev
+  

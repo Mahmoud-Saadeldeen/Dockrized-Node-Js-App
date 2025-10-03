@@ -1,0 +1,6 @@
+services:
+  nodeapp:
+     build:
+       context: .
+       target: Production
+     command: npm run start
